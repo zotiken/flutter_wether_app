@@ -9,7 +9,7 @@ part of 'weather_city.dart';
 WeatherCity _$WeatherCityFromJson(Map<String, dynamic> json) => WeatherCity(
       city: City.fromJson(json['city'] as Map<String, dynamic>),
       list: (json['list'] as List<dynamic>)
-          .map((e) => Day.fromJson(e as List<dynamic>))
+          .map((e) => Day.fromJson(e as Map<String, dynamic>))
           .toList(),
     );
 
