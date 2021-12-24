@@ -1,1 +1,1 @@
-# flutter_wether_app
+# flutter_weather_app
